@@ -1,0 +1,77 @@
+.logo{
+    display:block;
+    margin: auto;
+    width: 100px;
+    height:60px;
+    border-radius: 30%;
+}
+
+body{
+    height: 100vh;
+    background-image: url("1.jpg");
+  
+}
+
+.container{
+    width:100%;
+    max-width: 800px;
+    /* background-color: rgb(127, 82, 248); */
+    background-image: url("2.jpg");
+   
+    margin: auto;
+    height:60vh;
+    border-radius: 10%;
+    overflow-y: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+}
+.message{
+    background-image:linear-gradient(lightblue,white); 
+width:24%;
+padding: 10px;
+margin:20px 13px;
+border:2px solid black;
+border-radius: 10%;
+}
+.left{
+ float:left;
+ clear:both;
+}
+.right{
+    float:right;
+    clear:both;
+}
+#send-container{
+   display: block;;
+    margin:auto;
+    text-align: center;
+    max-width:900px;
+    width:100%;
+
+}
+
+#messageInp{
+    width:70%;;
+    height:30px;
+    border-radius: 10px;
+    border:2px solid ; 
+    background-image: url("2.jpg");
+}
+h2{
+    text-align: center;
+    color:white;
+}
+.btn{
+    cursor: pointer;
+    background-image:linear-gradient(lightblue,white); 
+width:100px;
+    border:2px solid black;
+    border-radius: 20px;
+    color: blue;
+    padding:9px;;
+}
+.btn:hover{
+    background-image:linear-gradient(blue,white); 
+    color: white;
+}
